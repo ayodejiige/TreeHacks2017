@@ -1,0 +1,32 @@
+import serial
+import time
+
+ser = serial.Serial('COM3', 9600)
+time.sleep(4)
+# while(1):
+#     ser.write('b')
+#     # ser.flush()
+#     print ("Python value sent: ")
+#     print ('b')
+#     time.sleep(1)
+#     msg = ser.read(ser.inWaiting())
+#     print ("Message from arduino: ")
+#     print (msg)
+#     ser.write('u')
+#     # ser.flush()
+#     print ("Python value sent: ")
+#     print ('u')
+#     time.sleep(1)
+#     msg = ser.read(ser.inWaiting())
+#     print ("Message from arduino: ")
+#     print (msg)
+    # ser.close()
+    # time.sleep(1)
+    # ser.open()
+    # ser.write('u')
+    # ser.close()
+    # time.sleep(1)
+    # ser.open()
+    # print("here")
+# if __name__ == '__main__':
+#     main()
